@@ -1,7 +1,11 @@
 # Demo Spring application
 
 trigger: none
-pr: none
+pr: 
+  autoCancel: true
+  branches:
+    include:
+    - master
 pool:
   vmImage: ubuntu-latest
 
