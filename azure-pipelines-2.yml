@@ -1,9 +1,6 @@
 # Demo Spring application
 
-trigger:
- branches:
-   include:
-     - master
+trigger: none
 pr:
  branches:
     include:
