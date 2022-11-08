@@ -1,7 +1,6 @@
 # Demo Spring application
 
-trigger:
-- master
+trigger: none
 
 pool:
   vmImage: ubuntu-latest
