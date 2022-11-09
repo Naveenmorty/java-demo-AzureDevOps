@@ -2,11 +2,12 @@
 
 trigger: none
 pr: 
-  autoCancel: false
+  autoCancel: true
   branches:
+    include:
+    - none
     exclude:
     - master
-    - main
 pool:
   vmImage: ubuntu-latest
 
