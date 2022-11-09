@@ -4,8 +4,9 @@ trigger: none
 pr: 
   autoCancel: false
   branches:
-    include:
-    - none
+    exclude:
+    - master
+    - main
 pool:
   vmImage: ubuntu-latest
 
